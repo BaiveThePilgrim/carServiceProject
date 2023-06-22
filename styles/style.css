@@ -1,0 +1,1368 @@
+@font-face {
+  font-family: "Reforma Grotesk Demi";
+  src: url(/styles/fonts/ReformaGroteskDemiC.eot);
+  src: url("ReformaGroteskDemiC.eot?#iefix") format("embedded-opentype"),
+    url(/styles/fonts/ReformaGroteskMediumC.woff) format("woff"),
+    url(/styles/fonts/ReformaGroteskMediumC.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Reforma Grotesk Medium";
+  src: url(/styles/fonts/ReformaGroteskMediumC.eot);
+  src: url("ReformaGroteskMediumC.eot?#iefix") format("embedded-opentype"),
+    url(/styles/fonts/ReformaGroteskMediumC.woff) format("woff"),
+    url(/styles/fonts/ReformaGroteskMediumC.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Reforma Grotesk Bold";
+  src: url(/styles/fonts/ReformaGroteskBoldC.eot);
+  src: url("ReformaGroteskBoldC.eot?#iefix") format("embedded-opentype"),
+    url(/styles/fonts/ReformaGroteskBoldC.woff) format("woff"),
+    url(/styles/fonts/ReformaGroteskBoldC.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*="__container"] {
+  margin: 0 auto;
+}
+@media (max-width: 1919.98px) {
+  [class*="__container"] {
+    max-width: 1680px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1679.98px) {
+  [class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1199.98px) {
+  [class*="__container"] {
+    max-width: 970px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 969.98px) {
+  [class*="__container"] {
+    max-width: 750px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 749.98px) {
+  [class*="__container"] {
+    max-width: none;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+}
+
+.wrapper__container {
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.fa-diamond {
+  color: #db3138;
+}
+
+.fa-chevron-up,
+.fa-chevron-left,
+.fa-chevron-right,
+.fa-youtube,
+.fa-paper-plane,
+.fa-instagram,
+.fa-location-dot,
+.fa-phone,
+.fa-envelope {
+  color: #ffffff;
+}
+
+body {
+  width: 100%;
+  /* max-width: 1920px; */
+  background: #1e1e1e;
+  margin: 0px auto;
+}
+
+header {
+  width: 100%;
+  background-image: url(/styles/images/Rectangle\ 64.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #141414;
+}
+
+.flex-dis {
+  display: flex;
+}
+
+nav {
+  /* margin: 0px 312px 0px; */
+  margin: 0px auto 0px;
+  justify-content: space-between;
+  width: 68%;
+}
+
+.nav-text {
+  font-family: "Reforma Grotesk Medium";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  margin: 40px 40px 0px 0px;
+  letter-spacing: 1px;
+}
+
+.nav-text:hover {
+  color: rgb(219, 49, 56);
+}
+
+#burger {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 50px;
+  height: 35px;
+  margin-top: 45px;
+}
+
+#burger-line1,
+#burger-line3 {
+  width: 40px;
+  height: 3px;
+  background: #db3138;
+  margin-left: 10px;
+}
+
+#burger-line2 {
+  width: 40px;
+  height: 3px;
+  background: #db3138;
+}
+
+h1 {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150px;
+  /* line-height: 100px; */
+  text-align: center;
+  color: #db3138;
+  margin: 150px 0px 0px 0px;
+}
+
+.h-border {
+  display: flex;
+  justify-content: center;
+}
+
+#header-h1 {
+  margin-top: 40px;
+}
+
+.h1-border {
+  width: 10px;
+  height: 10px;
+  margin: 0px 15px;
+}
+
+.text {
+  font-family: "Reforma Grotesk Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+
+#header-text {
+  margin: 40px 0px 0px 0px;
+}
+
+.button {
+  display: block;
+  width: 110px;
+  height: 60px;
+  background: #db3138;
+  transition: all ease-in-out 1s;
+}
+
+.button:hover {
+  width: 165px;
+}
+
+#nav-button {
+  justify-content: flex-start;
+  width: 165px;
+  margin: 40px auto 0px;
+}
+
+.button-text {
+  display: block;
+  box-sizing: content-box;
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 15px 0px 12px 15px;
+  letter-spacing: 2px;
+  width: 130%;
+  height: 40px;
+}
+
+#nav-group {
+  justify-content: space-between;
+  width: 100%;
+  height: 215px;
+  margin-top: 100px;
+  border-top: 1px solid #898989;
+  border-bottom: 1px solid #898989;
+}
+
+#nav-address {
+  border-right: 1px solid #898989;
+  width: 33%;
+}
+
+#nav-phone {
+  border-right: 1px solid #898989;
+  width: 33%;
+}
+
+#nav-work {
+  width: 33%;
+}
+
+.little-text {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.red-text {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #db3138;
+  margin-top: 20px;
+}
+
+@media (max-width: 749.98px) {
+  #nav-group {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #nav-address {
+    width: 100%;
+    border-top: 1px solid #898989;
+    border-right: none;
+  }
+  #nav-phone {
+    width: 100%;
+    border-top: 1px solid #898989;
+    border-right: none;
+  }
+  #nav-work {
+    width: 100%;
+    border-top: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+  }
+  .red-text {
+    padding: 0px;
+    margin: 0px;
+  }
+  .little-text {
+    padding: 15px;
+    margin: 0px;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------
+MAIN --------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------- */
+
+main {
+  background: #141414;
+}
+
+/* Our achiv block -------------------------------------------------------------------->*/
+#our-achiv {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 73px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px;
+  max-width: 90%;
+  text-align: start;
+}
+
+#our-achiv-left {
+  width: 75%;
+  margin-right: 25px;
+}
+
+#our-achiv-border {
+  margin-top: 40px;
+  justify-content: start;
+}
+
+.main-text {
+  font-family: "Reforma Grotesk Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 120%;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+#our-achiv-text {
+  margin-top: 60px;
+  max-width: 90%;
+}
+
+#our-achiv-block1 {
+  display: block;
+  width: 100%;
+}
+
+#our-achiv-block2 {
+  display: block;
+  width: 100%;
+}
+
+#our-achiv-flex {
+  justify-content: space-between;
+  /* margin: 180px auto 0px; */
+  margin: 0px auto;
+  padding-top: 180px;
+  width: 68%;
+}
+
+.achiv-white-text {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.achiv-red-text {
+  font-family: "Reforma Grotesk Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 73px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #db3138;
+  display: inline-block;
+  margin: 0px auto;
+}
+
+.little-achiv-red-text {
+  display: inline-block;
+  font-family: "Reforma Grotesk Demi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #db3138;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.grid-box-achiv {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #898989;
+  padding: 20px;
+}
+
+#achiv-icon {
+  margin: 10px auto 13px;
+}
+
+#our-achiv-block2 {
+  position: relative;
+  margin: 40px 0px 0px -1px;
+}
+
+@media (max-width: 1679.98px) {
+  #our-achiv-flex {
+    justify-content: center;
+  }
+  #our-achiv-text {
+    width: 90%;
+    margin-right: 10px;
+  }
+  #our-achiv-flex {
+    width: 100%;
+    margin: 0px 50px;
+  }
+  #our-achiv-left {
+    width: 40%;
+    margin-right: 10px;
+  }
+  #our-achiv-right {
+    width: 40%;
+  }
+}
+
+@media (max-width: 969.98px) {
+  #our-achiv-flex {
+    flex-direction: column;
+  }
+  #our-achiv-left {
+    width: 90%;
+    margin: 0px;
+    justify-content: center;
+  }
+  #our-achiv-border {
+    justify-content: center;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  #our-achiv-text {
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+  #our-achiv {
+    max-width: 100%;
+    margin: 0px;
+  }
+  #our-achiv-right {
+    width: 90%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 749.98px) {
+  #our-achiv-flex {
+    padding: 100px 0px 0px;
+    margin: 0px auto;
+    justify-content: center;
+  }
+  #our-achiv-border {
+    margin-top: 30px;
+  }
+  #our-achiv-left {
+    width: 90%;
+    margin: 0px auto;
+    justify-content: center;
+  }
+  #our-achiv-right {
+    width: 90%;
+    margin: 40px auto 0px;
+    justify-content: center;
+  }
+}
+
+/* carousel ------------------------------------------------------------------------> */
+.carousel {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 180px;
+  align-items: center;
+  width: 67, 5%;
+}
+
+.carusel-button {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-width: 50px;
+  transform: rotate(-45deg);
+  border: 3px solid #898989;
+  display: flex;
+  justify-content: center;
+  vertical-align: bottom;
+  cursor: pointer;
+  background: #141414;
+  transition: ease-in-out 0.3s;
+}
+
+.carusel-button:hover {
+  border: 3px solid #db3138;
+  transition: ease-in-out 0.3s;
+}
+
+/* Button up */
+
+.btn-up {
+  display: block;
+  position: fixed;
+  right: 50px;
+  bottom: 110px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #898989;
+  cursor: pointer;
+  background: #141414;
+  opacity: 0.6;
+  transform: translateX(0) rotate(315deg);
+  transition: 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+.btn-up:hover {
+  opacity: 1;
+  border: 3px solid #db3138;
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+.btn-up_hiding {
+  opacity: 0;
+  transform: translateX(50px) rotate(105deg);
+}
+
+#btn-up-rotation {
+  display: flex;
+  transform: rotate(45deg);
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#carusel-button1 {
+  margin: auto;
+  z-index: 2;
+}
+
+#carusel-button2 {
+  margin: auto;
+  z-index: 2;
+}
+
+#carousel-right-arrow,
+#carousel-left-arrow {
+  display: block;
+  transform: rotate(45deg);
+  margin: auto;
+}
+
+#slider1 {
+  width: 1296px;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+#inside-slider1 {
+  display: flex;
+  position: relative;
+  transition: all ease 1s;
+  gap: 24px;
+}
+
+.slides-in-slider1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 12px; */
+}
+
+.slider-text {
+  margin: -35px auto 0px;
+  width: 90%;
+  height: 70px;
+  background: #db3138;
+  box-sizing: content-box;
+}
+
+.slider-text p {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 30px 40px 0px;
+}
+
+@media (max-width: 1679.98px) {
+  #slider1 {
+    width: 856px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #slider1 {
+    width: 724px;
+  }
+  .slides-in-slider1 img {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media (max-width: 969.98px) {
+  #slider1 {
+    width: 374px;
+  }
+}
+/* About us -----------------------------------------------------------------------> */
+
+.h3 {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  margin: 0px;
+}
+
+.about-us-icon {
+  margin-right: 30px;
+}
+
+.about-us-text {
+  font-family: "Reforma Grotesk Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.h3-border {
+  margin: 0px 15px;
+}
+
+#about-us-hb-1,
+#about-us-hb-2 {
+  margin-top: 40px;
+}
+
+#our-masters,
+#our-guarantee {
+  margin-top: 55px;
+}
+
+#about-us,
+#evidence-box {
+  max-width: 40%;
+}
+
+#about-us-group {
+  width: 68%;
+  justify-content: space-between;
+  margin: 180px auto 0px;
+}
+
+#evidence-group {
+  width: 68%;
+  margin: 200px auto 0px;
+  justify-content: space-between;
+}
+
+#carousel-left-about,
+#carousel-right-about,
+#carousel-left-evidence,
+#carousel-right-evidence {
+  display: block;
+  transform: rotate(45deg);
+  margin: auto;
+}
+
+#slider-about-us,
+#slider-evidence {
+  width: 676px;
+  overflow: hidden;
+}
+
+#inside-slider-about-us,
+#inside-slider-evidence {
+  display: flex;
+  position: relative;
+  left: 0px;
+  transition: all ease 1s;
+  gap: 40px;
+  margin-left: 20px;
+}
+
+.slides-in-evidence,
+.slides-in-about-us {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#slider-buttons-about,
+#slider-buttons-evidence {
+  justify-content: space-between;
+  margin: -50px 35px 0px;
+  position: relative;
+}
+
+.slide-text-about,
+.slide-text-evidence {
+  position: relative;
+  top: 0px;
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 50px auto 0px;
+  max-width: 66%;
+}
+
+@media (max-width: 1679.98px) {
+  #about-us-group,
+  #evidence-group {
+    width: 90%;
+    margin: 150px 50px 0px;
+    justify-content: space-around;
+  }
+  .slides-in-about-us img,
+  .slides-in-evidence img {
+    width: 466px;
+    height: auto;
+  }
+  #slider-about-us,
+  #slider-evidence {
+    width: 506px;
+  }
+  #slider-buttons-about,
+  #slider-buttons-evidence {
+    margin: -70px 15px 0px;
+  }
+  .slide-text-about,
+  .slide-text-evidence {
+    margin: 20px auto 0px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .slides-in-about-us img,
+  .slides-in-evidence img {
+    width: 416px;
+    height: auto;
+  }
+  #slider-about-us,
+  #slider-evidence {
+    width: 456px;
+  }
+}
+
+@media (max-width: 969.98px) {
+  #about-us-group,
+  #evidence-group {
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 40px 40px 0px;
+  }
+  #about-us,
+  #evidence-box {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  #our-masters,
+  #our-guarantee {
+    margin-top: 0px;
+  }
+  #about-us-hb-1,
+  #about-us-hb-2 {
+    margin: 40px 0px;
+  }
+  #slider-about-us,
+  #slider-evidence {
+    margin: 50px auto 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+  #slider-buttons-about,
+  #slider-buttons-evidence {
+    margin: -70px 90px 0px;
+  }
+  #evidence-box {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 749.98px) {
+  #slider-buttons-about,
+  #slider-buttons-evidence {
+    margin: -70px 60px 0px;
+  }
+}
+
+h2 {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 73px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 180px;
+}
+
+#buttons-switch-group {
+  display: flex;
+  justify-content: center;
+}
+
+#button-glue {
+  width: 180px;
+  height: 75px;
+  margin: 60px 50px 0px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#button-detailing {
+  width: 180px;
+  height: 75px;
+  margin: 60px 50px 0px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#button-glue:hover,
+#button-detailing:hover {
+  border: 2px solid #db3138;
+}
+
+.button-switch-on {
+  border: 2px solid #898989;
+}
+
+#services-group-glue,
+#services-group-detailing {
+  margin: 90px auto 0px auto;
+}
+
+.block-glue,
+.block-detailing {
+  transition: 0.5s ease-in-out;
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+
+.hide-block-l {
+  position: relative;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: 0.5s ease-in-out;
+}
+
+.hiding-block-l {
+  display: none;
+  transform: translateX(100px);
+  transition: 0.5s ease-in-out;
+}
+
+.hide-block-r {
+  position: relative;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: 0.5s ease-in-out;
+}
+
+.hiding-block-r {
+  display: none;
+  transform: translateX(-100px);
+  transition: 0.5s ease-in-out;
+}
+
+.services-box {
+  border: 1px solid #898989;
+  padding: 0px 20px;
+  margin: 0px 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+}
+
+.services-box:hover {
+  border: 1px solid #db3138;
+  transform: translateY(-20px);
+  transition: 0.3s ease-in-out;
+}
+
+#services-info {
+  justify-content: center;
+  position: relative;
+  /* background-color: #fff; */
+  overflow: hidden;
+}
+
+.services-box span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75px;
+  margin: 60px auto 0px auto;
+}
+
+.services-box h4 {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  /* margin: ; */
+}
+
+.services-box p {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.flex-dis-services {
+  margin: 25px auto 50px;
+  width: 63%;
+}
+
+.services-button {
+  width: 60px;
+  height: 40px;
+  background: #db3138;
+  transition: all ease-in-out 1s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.services-button:hover {
+  width: 100%;
+}
+
+.services-button-text {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  /* text-align: center; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+@media (max-width: 969.98px) {
+  #services-group-glue,
+  #services-group-detailing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .services-box {
+    margin: 20px;
+  }
+}
+
+/* Footer -----------------------------------------------> */
+footer {
+  background: #141414;
+  padding-top: 180px;
+}
+
+#out-jobs-h2 {
+  margin: 0px auto;
+}
+
+#out-jobs-border {
+  margin-top: 40px;
+}
+
+#our-jobs {
+  width: 100%;
+  margin: 60px auto 0px;
+  text-align: center;
+}
+
+#our-jobs img {
+  width: 16.6%;
+  margin: -3px;
+  cursor: pointer;
+}
+
+/* form ---------------------------------------------------------------------------->*/
+input {
+  background: #141414;
+  border: 1px solid #898989;
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 15px 25px 15px 25px;
+  text-transform: uppercase;
+}
+
+textarea {
+  background: #141414;
+  border: 1px solid #898989;
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 1px;
+  color: #fff;
+  resize: none;
+  padding: 12px 25px 12px 25px;
+  text-transform: uppercase;
+}
+
+#form-group {
+  flex-direction: column;
+  max-width: 33%;
+  margin: 60px auto 0px;
+}
+
+#input-group1 {
+  justify-content: space-between;
+}
+
+#input-name {
+  width: 48%;
+}
+
+input:focus,
+input:hover {
+  border: 1px solid #db3138;
+  outline: none;
+}
+
+textarea:focus,
+textarea:hover {
+  border: 1px solid #db3138;
+  outline: none;
+}
+
+#input-number {
+  width: 48%;
+}
+
+#input-text {
+  width: 83%;
+  margin-top: 25px;
+}
+
+#text-and-link {
+  justify-content: space-between;
+}
+
+.link {
+  padding: 10px;
+  border: 1px solid #898989;
+}
+
+#link-group {
+  margin-top: 25px;
+}
+
+#youtube-link {
+  cursor: pointer;
+}
+
+#youtube-link:hover {
+  border: 1px solid #db3138;
+}
+
+#telegram-link {
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+#telegram-link:hover {
+  border: 1px solid #db3138;
+}
+
+#instagram-link {
+  cursor: pointer;
+}
+
+#instagram-link:hover {
+  border: 1px solid #db3138;
+}
+
+#send-and-contacts {
+  justify-content: space-between;
+}
+
+.flex-dis-send {
+  margin-top: 25px;
+  width: 26%;
+}
+
+.send-button {
+  width: 60px;
+  height: 50px;
+  background: #db3138;
+  transition: all ease-in-out 1s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.send-button:hover {
+  width: 120px;
+}
+
+.send-button-text {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+#contact-location,
+#contact-phone,
+#contact-mail {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-items: center;
+}
+
+#contact-location i,
+#contact-phone i,
+#contact-mail i {
+  margin-right: 15px;
+}
+
+#contact-location p,
+#contact-phone p,
+#contact-mail p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact-footer-group {
+  margin-top: 25px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#phone-and-mail-footer-group {
+  justify-content: end;
+}
+
+#contact-phone {
+  margin-right: 30px;
+}
+
+#footer-nav-group {
+  width: 68%;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+#footer-border {
+  width: 100%;
+  border-top: 1px solid #898989;
+  margin-top: 100px;
+}
+
+#copr {
+  font-family: "Reforma Grotesk Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 35px 0px;
+}
+
+#footer-nav {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#footer-nav div {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.scale {
+  transform: scale(2);
+  transition: all ease-in-out 0.5s;
+  border: 2px solid #fff;
+  z-index: 12;
+}
+
+.our-jobs-images {
+  transition: all ease-in-out 0.5s;
+  z-index: 11;
+}
+
+@media (max-width: 1679.98px) {
+  #footer-nav-group {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #footer-nav {
+    justify-content: center;
+    margin: 15px 0px 0px;
+  }
+  #copr {
+    text-align: center;
+    margin: 15px 0px;
+  }
+  #form-group {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 969.98px) {
+  #send-and-contacts {
+    flex-direction: column;
+  }
+  #contact-footer-group {
+    justify-content: center;
+  }
+  #contact-phone {
+    margin: 0px;
+  }
+  #phone-and-mail-footer-group {
+    justify-content: center;
+  }
+  #contact-location {
+    justify-content: center;
+  }
+  #footer-nav {
+    width: 100%;
+  }
+  #footer-nav-group {
+    width: 100%;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 749.98px) {
+  #send-and-contacts {
+    justify-content: center;
+  }
+  .send-button {
+    margin: 0px auto;
+  }
+  .flex-dis-send {
+    justify-content: center;
+    width: 100%;
+    padding-right: 40px;
+  }
+}
+
+/* ready for commit */

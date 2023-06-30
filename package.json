@@ -1,0 +1,23 @@
+{
+  "name": "carproject",
+  "version": "1.0.0",
+  "description": "![main](https://github.com/BaiveThePilgrim/carServiceProject/assets/118125145/b57a9f45-5348-41cb-aea0-b08577e41514)",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier-eslint": "^15.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaiveThePilgrim/carServiceProject.git"
+  },
+  "author": "BaiveThePilgrim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaiveThePilgrim/carServiceProject/issues"
+  },
+  "homepage": "https://github.com/BaiveThePilgrim/carServiceProject#readme"
+}

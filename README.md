@@ -1,10 +1,12 @@
-# Car Service website
+# Car Service Website
 
-![main](https://github.com/BaiveThePilgrim/carServiceProject/assets/118125145/b57a9f45-5348-41cb-aea0-b08577e41514)
+![main](https://github.com/BaiveThePilgrim/carServiceProject/assets/118125145/e0986de9-b63c-412e-855e-6d6d8971e38f)
+
 
 ## General info
 
 Is it application create to memorize the material from online course and use skills in practice.
+
 
 ## Technologies
 
@@ -14,16 +16,19 @@ Project is create with:
 - CSS
 - JavaScript
 
+
 ## Features
 
 - adaptive styles
 - image carousel with vanilla Javascript
 
-![slider](https://github.com/BaiveThePilgrim/carServiceProject/assets/118125145/0130f9aa-df43-46d9-9f6a-3e5ac2087262)
+
+![slider](https://github.com/BaiveThePilgrim/carServiceProject/assets/118125145/ba2baed6-fb29-4a5d-8623-1fa449b02ebd)
 
 - animated elements
 
-![animation](https://github.com/BaiveThePilgrim/carServiceProject/assets/118125145/2c3589f5-b3eb-42da-8c04-37767efd2171)
+![animation](https://github.com/BaiveThePilgrim/carServiceProject/assets/118125145/ca6a50c1-1181-4692-af1f-c40e448ab5e5)
+
 
 ## Contact me
 
